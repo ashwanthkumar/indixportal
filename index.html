@@ -3,64 +3,61 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Indix Intranet Portal</title>
+        <title>Indix LiveWire</title>
         <link rel="icon" href="img/favicon.ico" />
         <link rel="stylesheet" href="css/normalize.css" />
         <link rel="stylesheet" href="css/frame.css" />
         <link rel="stylesheet" href="css/main.css" />
     </head>
     <body>
-      <div class="frame">
-        <div class="header">
-          <div class="content">
-            <img src="img/logo.png" alt="">
-            <div>Indix Intranet Portal</div>
-          </div>
-        </div>
-        <div class="body"></div>
-        <div class="template" style="display: none">
-          <div id="group-template" style="display: none;">
-            <div class="row">
-              <div class="lr-12 md-12 sm-12 heading">
-                <div class="title">
-                  <p>{{ name }}</p>
-                  <hr />
+        <div class="frame">
+            <div class="header">
+                <div class="content">
+                    <img src="img/logo.png" alt="">
+                    <div>Indix LiveWire</div>
                 </div>
-              </div>
             </div>
-            {{ itemsTemplate }}
-          </div>
-          <div id="items-wrap" style="display: none;">
-            <div class="row body">
-              {{ items }}
-              <br />
-              <br />
-              <br />
-            </div>
-          </div>
-          <div id="items-template" style="display: none;">
-            <div class="lr-3 md-4 sm-12 data same-row">
-              <div class="container">
-                <div class="contains">
-                  <div class="img">
-                    <img src={{image}} alt="">
-                  </div>
-                  <div class="text">
-                    <a href={{link}}>
-                      <div class="title">{{ name }}</div>
-                    </a>
-                    <div class="description">{{ description }}</div>
-                  </div>
+            <div class="body"></div>
+            <div class="template" style="display: none">
+                <div id="group-template" style="display: none;">
+                    <div class="row">
+                        <div class="lr-12 md-12 sm-12 heading">
+                            <div class="title">
+                                <p>{{ name }}</p>
+                                <hr />
+                            </div>
+                        </div>
+                    </div>
+                    {{ itemsTemplate }}
                 </div>
-              </div>
+                <div id="items-wrap" style="display: none;">
+                    <div class="row body">
+                        {{ items }}
+                    </div>
+                </div>
+                <div id="items-template" style="display: none;">
+                    <div class="lr-3 md-4 sm-12 data same-row">
+                        <div class="container">
+                            <div class="contains">
+                                <div class="img">
+                                    <img src={{image}} alt="">
+                                </div>
+                                <div class="text">
+                                    <a href={{link}} target="_blank">
+                                        <div class="title">{{ name }}</div>
+                                    </a>
+                                    <div class="description">{{ description }}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      <script src="js/is.js"></script>
-      <script src="js/frame.js"></script>
-      <script src="js/jquery.js"></script>
-      <script src="js/_.js"></script>
-      <script type="text/javascript" src="js/main.js"></script>
-  </body>
+        <script src="js/is.js"></script>
+        <script src="js/frame.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/_.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
 </html>

@@ -1,0 +1,13 @@
+{
+    "name": "Indix Livewire",
+    "version": "1.0",
+    "description": "lorem ipsum",
+    "manifest_version": 2,
+    "permissions": [
+        "tabs"
+    ],
+    "content_security_policy": "script-src 'unsafe-eval'; object-src 'self'",
+    "chrome_url_overrides" : {
+        "newtab": "index.html"
+    }
+}

@@ -2,6 +2,7 @@
 $logo: #ee352a;
 body{
   background-color: $white;
+    font-size: 14px;
 }
 .frame{
   max-width: 100%;
@@ -31,13 +32,13 @@ body{
     .content{
       position: relative;
       img{
-        width: 200px;
-        padding-left: 10px;
+        width: 150px;
+        padding: 10px;
       }
       div{
         display: inline-block;
         position: absolute;
-        top: 48px;
+        top: 42px;
         color: $grey800;
         font-weight: 600;
       }
@@ -56,6 +57,9 @@ body{
       }
     }
     .data{
+      &:last-child{
+          margin-bottom: 100px;
+      }
       .container{
         padding: 20px;
         .contains{
