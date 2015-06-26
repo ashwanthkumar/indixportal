@@ -1,0 +1,33 @@
+{
+  "name": "frame-ui",
+  "version": "1.0.1",
+  "description": "FRAME is a simple, responsive, boilerplate and a future proof UI framework. It incorporates a powerful grid system and various JavaScript utility classes.",
+  "main": "js/frame.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Pranesh456/frame.git"
+  },
+  "keywords": [
+    "FRAME",
+    "Pranesh",
+    "Framework"
+  ],
+  "author": {
+    "name": "Pranesh Ravi",
+    "email": "talkto@praneshravi.in",
+    "url": "http://praneshravi.in/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pranesh456/frame/issues"
+  },
+  "homepage": "https://github.com/Pranesh456/frame",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "readme": "# Frame\n<b>FRAME is a simple, responsive, boilerplate and a future proof basic UI framework. It incorporates a powerful grid system and various JavaScript utility classes.</b>\n\n<h1>\nFor documentation, go to <a href=\"http://www.getframe.in\" target=\"_blank\">getframe.in</a>\n</h1>\n",
+  "readmeFilename": "README.md",
+  "_id": "frame-ui@1.0.1",
+  "_shasum": "6f25e3f6be773bacb4a3a185213bf1694dad6c93",
+  "_from": "frame-ui@"
+}
